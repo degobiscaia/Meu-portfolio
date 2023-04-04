@@ -121,9 +121,8 @@ section{
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
-/*
-this thing is for javascript
-*/
+
+
 .social-media a:hover, .social-media a.active{
     background: #007ced;
     color: #000;
@@ -193,9 +192,9 @@ span{
     margin: 2rem 0 rem;
 }
 
-/*Services*/
+/*Skill's*/
 
-.service-section{
+.habilit-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +202,7 @@ span{
     flex-wrap: wrap;
 }
 
-.service-section .service-box{
+.habilit-section .habilit-box{
     flex: 1 1 30rem;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -214,25 +213,25 @@ span{
 
 }
 
-.service-box:hover{
+.habilit-box:hover{
     border: 2px solid #007ced;
     transform: scale(1.2);
 }
 
-.service h2{
+.habilit h2{
     margin-bottom: 5rem;
 }
 
-.service-box i{
+.habilit-box i{
     font-size: 100px;
     color: #1be7bb;
 }
 
-.section h3{
+.habilit h3{
     font-size: 2.6rem;
 }
 
-.service-box p{
+.habilit-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
@@ -312,13 +311,12 @@ span{
     text-decoration: none;
 }
 
-.portfolio-head i{
+.portfolio-head a i{
     font-size: 2rem;
     color: #111;
 }
 
-/*Contact*/
-
+/*Contato*/
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -363,7 +361,8 @@ form .btn{
     cursor: pointer;
 }
 
-/* Footer*/
+/*Rodapé*/
+
 .footer{
     background: #111;
     display: flex;
@@ -394,6 +393,8 @@ form .btn{
     text-align: center;
 }
 
+/*Responsividade*/
+
 @media(max-width:1200px){
     html{
        font-size: 55%; 
@@ -404,7 +405,7 @@ form .btn{
     .header{
         padding: 2rem 3%;
     }
-    .service{
+    .habilit{
         margin-bottom: 7rem;
     }
     section{

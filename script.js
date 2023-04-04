@@ -31,8 +31,8 @@ menubar.onclick= ()=>{
 
 //create atext changer
 var type=new Typed('.textline',{
-    strings:['Desenvolvedor Front-end'],
-    typeSpeed: 100,
+    strings:['Front-end'],
+    typeSpeed: 10,
     backspeed: 100,
     backDelay: 1000,
     lopp:true
